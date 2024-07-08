@@ -1,0 +1,46 @@
+$def with (menu, content)
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>JLink</title>
+        <link rel="stylesheet" type="text/css" href="/static/webiface.css"/>    
+        <link rel="stylesheet" type="text/css" href="/static/apprise.css"/>    
+        <script type="text/Javascript" src="/static/jquery-1.4.2.min.js" ></script>
+        <script type="text/JavaScript" src="/static/apprise.js" ></script>
+   </head>
+    
+    <body class="gui">
+      <div id="wrapper">
+         <div id="content">
+            <div id="header">
+
+               <div id="si_lan"></div>
+               <div id="si_wifi"></div>
+               <div id="si_uhf"></div>
+               <div id="si_emdm"></div>
+               <div id="si_gsm"></div>
+               <div id="si_bt"></div>
+               <div id="si_gps"></div>
+               <div id="si_bat"></div>
+               
+               <div id="menu">
+                  <div id="menuMain">
+                     <ul id="menuMainList">
+                     $:menu
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div id="main">
+               <div id="contents">
+               $:content
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>    
+</html>
+
+

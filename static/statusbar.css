@@ -1,0 +1,166 @@
+* {
+font-family:Tahoma, Arial, Helvertica, sans-serif;
+font-size:12px;
+}
+
+body {
+background:#fff;
+margin:.906em;
+font-size:69%;
+}
+
+body.gui {
+text-align:center;
+margin:0;
+background:#E2E3E4;
+background-repeat:repeat;
+}
+
+hr {
+height:.09em;
+border:none;
+text-align:center;
+color:#ccc;
+background:#ccc;
+width:100%;
+}
+
+pre {
+text-align:left;
+font-family:Courier New, Courier;
+}
+
+form 
+{
+    margin:0;
+}
+
+#wrapper 
+{
+    position:relative;
+    text-align:left;
+    width:72.464em;
+    margin:0 auto;
+}
+
+
+#header 
+{
+    position:absolute;
+    top:.906em;
+    left:0;
+    width:72.464em;
+    background:#E2E3E4;
+}
+
+/*#header */
+#logo 
+{
+    position:absolute;
+    top:.506em;
+    right:1.3em;
+    background:url(jlogo.jpg) right center no-repeat;
+    height:35px;
+    width:205px;
+/*display:none;*/
+}
+
+#mode_text 
+{
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+    font-weight:bold;
+    color:#000;
+}
+
+#pwr_ext_mode
+{
+    font-family:Tahoma, Arial, Helvertica, sans-serif;
+    font-size:11px;
+    position: absolute; 
+    top:28px; 
+    left: 15px;
+    font-weight:bold;
+    color:#000;
+}
+
+#si_lan
+{
+    position:absolute;
+    top:0em;
+    left:0em;
+    height:56px;
+    width:50px;
+}
+
+#si_wifi
+{
+    position:absolute;
+    top:0em;
+    left:5em;
+    height:56px;
+    width:50px;
+}
+
+#si_uhf_tx
+{
+    position:absolute;
+    top:0em;
+    left:10em;
+    height:56px;
+    width:50px;
+}
+
+#si_uhf_rx
+{
+    position:absolute;
+    top:0em;
+    left:12em;
+    height:56px;
+    width:50px;
+}
+
+
+#si_gsm
+{
+    position:absolute;
+    top:0em;
+    left:17em;
+    height:56px;
+    width:50px;
+}
+
+#si_bt
+{
+    position:absolute;
+    top:0em;
+    left:22em;
+    height:56px;
+    width:50px;
+}
+
+#si_gps
+{
+    position:absolute;
+    top:0em;
+    left:27em;
+    height:56px;
+    width:50px;
+}
+
+#si_bat
+{
+    position:absolute;
+    top:0em;
+    left:32em;
+    height:56px;
+    width:50px;
+}
+
+img { 
+    border: 0px; 
+    height: 56;
+    width: 50;
+}
+
