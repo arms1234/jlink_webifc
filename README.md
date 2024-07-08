@@ -1,1 +1,1 @@
-This is a jlinkLTE web interface source repositiory.
+This is a jlinkLTE web interface source repository.
